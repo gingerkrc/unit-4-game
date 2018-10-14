@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ancient Coin Collector Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <h1>Ancient Coin Collector Game</h1>
+    </div>
+    <div class="instructions">
+        <h2 id="intro">Instructions:</h2><br>
+        <p>Each of the coins below has a randomly set value.</p>
+        <p>Select a coin and watch the player value to see how the value of the coin adds up.</p>
+        <p>Try to match the player value to the target value to win the game.</p>
+        <p>The game is lost if the player value exceeds the target value.</p>
+    </div>
+    <div class="scores">
+        <div id="coins"></div>
+        <div><h2>Target Value:</h2><span id="targetValue-text"></span></div>
+        <div><h2>Player Value:</h2><span id="playerValue-text"></span></div>
+        <div class=><h2>Wins:</h2><span id="wins"></span></div>
+        <div class=><h2>Losses:</h2><span id="losses"></span></div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

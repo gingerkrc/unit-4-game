@@ -1,0 +1,40 @@
+body {
+    background-color: #967932;
+}
+
+.topbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: #798298;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+.scores {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #209867;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+
+}
+#intro {
+    font-size: 25px;
+}
+.instructions {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #291846;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+}
+
+#coins .coin-image {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
